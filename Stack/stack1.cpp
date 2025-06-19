@@ -37,7 +37,7 @@ struct Stack {
     bool isFull() {
         return nextIndex == capacity;
     }
-
+    
     int peek() {
         if (isEmpty()) {
             cout << "Stack is empty!" << endl;
